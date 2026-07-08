@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: "Georgia", serif;
+}
+
+main{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+    height: 700px;
+    margin: 80px auto;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+}
+
+header h1{
+    font-size: 35px;
+    border-bottom: 1px solid #8a8383;
+}
+
+header p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 520;
+}
+
+.info input{
+    width: 70%;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.radio {
+    padding: 3px;
+    margin: 5px;
+}
+
+.type_sex, .job_time{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    display: block;
+    background-color: #009249;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 10px;
+    padding: 10px;
+    width: 30%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.result{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #8a8383;
+    border-radius: 5px;
+}

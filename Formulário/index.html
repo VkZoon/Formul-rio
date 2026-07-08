@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Formulário de dados pessoais</h1>
+            <p>Nesse formulário será necessário que você responda, para a verificação se você se encaixa em uma de nossas vagas para trabalhar em nossa empresa!!!</p>
+        </header>
+
+        <div id="container">
+            <form class="form-container">
+                <div class="info">
+                    <label for="name">Nome: </label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="info">
+                    <label for="age">Idade: </label>
+                    <input type="number" name="age" id="age" placeholder="Digite sua idade" required>
+                </div>
+
+                <div class="radio">
+                    <label>Sexo</label>
+                    <div class="type_sex">
+                        <input type="radio" name="sex" id="masc">
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="sex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </div>
+                </div>
+
+                <div class="radio">
+                    <label>Você possui experiência na área da ti?</label>
+                    <div class="job_time">
+                        <input type="radio" name="job" id="yes">
+                        <label for="yes">Sim</label>
+                        <input type="radio" name="job" id="no">
+                        <label for="no">Não</label>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <label for="time_job">Quanto tempo você tem na área ?</label>
+                    <input type="number" id="time_job" required>
+                </div>
+
+                <div class="info">
+                    <label for="email">Digite seu email:</label>
+                    <input type="email" name="email" id="email" placeholder="xxxx@gmail.com">
+                </div>
+                
+
+                <div class="result" id="result">
+                    <p>Resultado do formulário!!!</p>
+                </div>
+            </form>
+            <button id="btn">Enviar</button>   
+        </div>
+    </main>
+</body>
+</html>
